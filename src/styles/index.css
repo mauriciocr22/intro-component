@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply p-0 m-0 box-border;
+}
+
+body, #root, html {
+  @apply w-full h-full
+}
+
+body {
+  @apply bg-pink-100 bg-pinkImg w-full h-full bg-no-repeat bg-cover;
+  -webkit-font-smoothing: antialised;
+}
